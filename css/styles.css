@@ -1,0 +1,170 @@
+/* Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #003366;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#home {
+    height: 100vh;
+    background: url('image/mini_Foto_oficial-web.jpg') no-repeat center center/cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.news-grid, .player-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.news-grid article, .player-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.player-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Memastikan gambar berbentuk persegi */
+    object-fit: cover;
+}
+
+img {
+    object-fit: cover;
+}
+
+.player-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+/* Match Schedule Styles */
+.match-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.match-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #f9f9f9;
+}
+
+.match-card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.match-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.match-card p {
+    margin: 0;
+    color: #666;
+}
+
+.player-card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.player-card a:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.player-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#player-detail img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#barca-fan {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.barca-logo img {
+    width: 40px; /* Ukuran logo */
+    height: auto;
+    margin-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #0033a0;
+}
+
+.barca-logo {
+    width: 90px; /* Ukuran logo */
+    height: auto;
+    margin-right: 10px; /* Jarak antara logo dan teks */
+}
+
+
+
