@@ -32,7 +32,6 @@ header {
 #home {
     height: 100vh;
     background: url("mini_Foto_oficial-web.jpg") no-repeat center center;
-    background-size: cover;
     color: #fff;
     display: flex;
     flex-direction: column;
