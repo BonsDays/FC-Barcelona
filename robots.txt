@@ -1,4 +1,3 @@
 User-agent: *
-Disallow:
-
+Disallow: /admin/
 Sitemap: https://bonsdays.github.io/FC-Barcelona/sitemap.xml
